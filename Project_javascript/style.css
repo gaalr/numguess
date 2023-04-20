@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: left;
 }
 
 html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Lobster', cursive, sans-serif;
+  font-family: "Lobster", cursive, sans-serif;
   font-weight: 400;
   color: black;
   background-color: #a5d8ff;
