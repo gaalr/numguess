@@ -1,0 +1,33 @@
+/* rem and em do NOT depend on html font-size in media queries!
+Instead, 1rem = 1em = 16px */
+
+/*****************************/
+/* BELOW 1344px (Smaller desktops) */
+/*****************************/
+@media (max-width: 84em) {
+  .head-title {
+    font-size: 6rem;
+    margin-top: 30px;
+  }
+  .head-instruct {
+    word-break: normal;
+  }
+}
+
+/*****************************/
+/* BELOW 1200px (Landscape Tablets) */
+/*****************************/
+
+@media (max-width: 75em) {
+  .info-part {
+    row-gap: 40px;
+    font-size: 4rem;
+  }
+  .form {
+    row-gap: 40px;
+    font-size: 4rem;
+  }
+}
+/*****************************/
+/* BELOW 944px (Tablets) */
+/*****************************/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Number-Tip is a game that allows the
+    player to guess a random number within an interval."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Szám-Tipp</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="head-title">Szám-Tipp</h1>
+      <p class="head-instruct">
+        (Gondoltam egy számra 1 és 30 között. Találd ki maximum 15
+        próbálkozással! Sok sikert!)
+      </p>
+    </header>
+    <section class="main">
+      <div class="form">
+        <input type="number" class="guess" placeholder="Írd ide a számot!" />
+        <button class="btn check">Kattints ide!</button>
+        <button class="btn again">Újra!</button>
+      </div>
+      <div class="info-part">
+        <div class="number">?</div>
+        <p class="message">Várakozás....</p>
+        <p class="label-score">Pontszám: <span class="score">15</span></p>
+        <p class="label-highscore">
+          Legjobb pontszám: <span class="highscore">0</span>
+        </p>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
